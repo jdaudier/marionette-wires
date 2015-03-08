@@ -4,7 +4,7 @@
   "description": "Starter kit for Marionette.js Applications using Browserify",
   "main": "index.js",
   "scripts": {
-    "start": "gulp",
+    "start": "node api/api",
     "test": "gulp test",
     "integration": "pioneer"
   },
@@ -78,7 +78,8 @@
     "lodash": "^2.4.1",
     "morgan": "^1.5.1",
     "nprogress": "^0.1.6",
-    "serve-static": "~1.9.1"
+    "serve-static": "~1.9.1",
+    "jade": "~1.9.2"
   },
   "browser": {
     "bootstrap": "./node_modules/bootstrap/dist/js/bootstrap.js"
