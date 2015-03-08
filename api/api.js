@@ -12,7 +12,7 @@ api.use(logger('dev'));
 api.use(bodyParser.json());
 
 api.get('/', function(req, res){
-  res.render('index');
+  res.render('layout');
 });
 
 require('./books/routes')(api);
