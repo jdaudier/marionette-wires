@@ -112,5 +112,9 @@
       "browserify-swap",
       "browserify-shim"
     ]
+  },
+  "engines": {
+    "node": "0.12.0",
+    "npm": "2.7.0"
   }
 }
