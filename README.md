@@ -20,7 +20,7 @@ npm install -g gulp
 gulp
 ```
 
-Once that's done, open up http://localhost:9000/ in your browser.
+Once that's done, the browser will automatically launch the app at http://localhost:3000.
 
 ## Guide
 
